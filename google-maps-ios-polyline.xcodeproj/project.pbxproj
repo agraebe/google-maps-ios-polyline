@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89A07281D7F5E05699EEDA33 /* libPods-google-maps-ios-polyline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098DDDE966777B10CCFC2831 /* libPods-google-maps-ios-polyline.a */; };
 		C7CE55CB22B69FAA00489A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE55CA22B69FAA00489A60 /* AppDelegate.swift */; };
 		C7CE55CD22B69FAA00489A60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE55CC22B69FAA00489A60 /* ViewController.swift */; };
 		C7CE55D022B69FAA00489A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CE55CE22B69FAA00489A60 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		C7CE55D522B69FAC00489A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CE55D322B69FAC00489A60 /* LaunchScreen.storyboard */; };
 		C7CE55E022B69FAC00489A60 /* google_maps_ios_polylineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE55DF22B69FAC00489A60 /* google_maps_ios_polylineTests.swift */; };
 		C7CE55EB22B69FAC00489A60 /* google_maps_ios_polylineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE55EA22B69FAC00489A60 /* google_maps_ios_polylineUITests.swift */; };
+		C7CE55F922B69FCF00489A60 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C7CE55F822B69FCF00489A60 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098DDDE966777B10CCFC2831 /* libPods-google-maps-ios-polyline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-google-maps-ios-polyline.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B780AA01DCBF5D507304A0F /* Pods-google-maps-ios-polyline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-maps-ios-polyline.release.xcconfig"; path = "Target Support Files/Pods-google-maps-ios-polyline/Pods-google-maps-ios-polyline.release.xcconfig"; sourceTree = "<group>"; };
+		9A05E7A7D59107B2AFDA3651 /* Pods-google-maps-ios-polyline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-maps-ios-polyline.debug.xcconfig"; path = "Target Support Files/Pods-google-maps-ios-polyline/Pods-google-maps-ios-polyline.debug.xcconfig"; sourceTree = "<group>"; };
 		C7CE55C722B69FAA00489A60 /* google-maps-ios-polyline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-maps-ios-polyline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CE55CA22B69FAA00489A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7CE55CC22B69FAA00489A60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		C7CE55E622B69FAC00489A60 /* google-maps-ios-polylineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "google-maps-ios-polylineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CE55EA22B69FAC00489A60 /* google_maps_ios_polylineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_maps_ios_polylineUITests.swift; sourceTree = "<group>"; };
 		C7CE55EC22B69FAC00489A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CE55F822B69FCF00489A60 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A07281D7F5E05699EEDA33 /* libPods-google-maps-ios-polyline.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +81,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B9A0A4933FE72B8DC3F6785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A05E7A7D59107B2AFDA3651 /* Pods-google-maps-ios-polyline.debug.xcconfig */,
+				4B780AA01DCBF5D507304A0F /* Pods-google-maps-ios-polyline.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A78FB087D6B0C27026F598DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				098DDDE966777B10CCFC2831 /* libPods-google-maps-ios-polyline.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7CE55BE22B69FAA00489A60 = {
 			isa = PBXGroup;
 			children = (
+				C7CE55F822B69FCF00489A60 /* Podfile */,
 				C7CE55C922B69FAA00489A60 /* google-maps-ios-polyline */,
 				C7CE55DE22B69FAC00489A60 /* google-maps-ios-polylineTests */,
 				C7CE55E922B69FAC00489A60 /* google-maps-ios-polylineUITests */,
 				C7CE55C822B69FAA00489A60 /* Products */,
+				8B9A0A4933FE72B8DC3F6785 /* Pods */,
+				A78FB087D6B0C27026F598DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CE55EF22B69FAC00489A60 /* Build configuration list for PBXNativeTarget "google-maps-ios-polyline" */;
 			buildPhases = (
+				A63D2C2BC1B7CC2D23E0E7DE /* [CP] Check Pods Manifest.lock */,
 				C7CE55C322B69FAA00489A60 /* Sources */,
 				C7CE55C422B69FAA00489A60 /* Frameworks */,
 				C7CE55C522B69FAA00489A60 /* Resources */,
+				E7FD978327C5028DB3AEF9CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +261,7 @@
 			files = (
 				C7CE55D522B69FAC00489A60 /* LaunchScreen.storyboard in Resources */,
 				C7CE55D222B69FAC00489A60 /* Assets.xcassets in Resources */,
+				C7CE55F922B69FCF00489A60 /* Podfile in Resources */,
 				C7CE55D022B69FAA00489A60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +281,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A63D2C2BC1B7CC2D23E0E7DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-google-maps-ios-polyline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FD978327C5028DB3AEF9CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-google-maps-ios-polyline/Pods-google-maps-ios-polyline-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-google-maps-ios-polyline/Pods-google-maps-ios-polyline-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-google-maps-ios-polyline/Pods-google-maps-ios-polyline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7CE55C322B69FAA00489A60 /* Sources */ = {
@@ -430,6 +503,7 @@
 		};
 		C7CE55F022B69FAC00489A60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A05E7A7D59107B2AFDA3651 /* Pods-google-maps-ios-polyline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +521,7 @@
 		};
 		C7CE55F122B69FAC00489A60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B780AA01DCBF5D507304A0F /* Pods-google-maps-ios-polyline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
